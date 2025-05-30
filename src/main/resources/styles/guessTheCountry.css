@@ -1,0 +1,30 @@
+.boton-azul {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-radius: 10;
+    -fx-cursor: hand;
+}
+
+.boton-azul:hover {
+    -fx-background-color: #2980b9;
+}
+
+.welcome-text {
+    -fx-font-family: "Impact", "Arial Black", sans-serif;
+    -fx-font-size: 42px;
+    -fx-text-fill: linear-gradient(to right, #3498db, #2ecc71); /* Azul → Verde */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.6), 4, 0.5, 2, 2);
+    -fx-alignment: center;
+    -fx-padding: 10 0 20 0;
+}
+
+.title-game {
+ -fx-font-family: "Segoe UI", "Roboto", "Helvetica", sans-serif;
+    -fx-font-size: 36px;
+    -fx-text-fill: #2c3e50; /* Gris oscuro azulado: elegante y serio */
+    -fx-font-weight: bold;
+    -fx-padding: 20 0 20 0;
+    -fx-alignment: center;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.15), 2, 0.3, 1, 1); /* sombra muy sutil */
+}
