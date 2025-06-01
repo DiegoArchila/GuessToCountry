@@ -1,0 +1,3181 @@
+[
+  {
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/mn.png",
+    "languages": [
+      "Mongolian"
+    ],
+    "currency": [
+      "Mongolian tögrög"
+    ]
+  },
+  {
+    "name": "Panama",
+    "capital": "Panama City",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/pa.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Panamanian balboa",
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/to.png",
+    "languages": [
+      "English",
+      "Tongan"
+    ],
+    "currency": [
+      "Tongan paʻanga"
+    ]
+  },
+  {
+    "name": "Comoros",
+    "capital": "Moroni",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/km.png",
+    "languages": [
+      "Arabic",
+      "French",
+      "Comorian"
+    ],
+    "currency": [
+      "Comorian franc"
+    ]
+  },
+  {
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/se.png",
+    "languages": [
+      "Swedish"
+    ],
+    "currency": [
+      "Swedish krona"
+    ]
+  },
+  {
+    "name": "Guinea",
+    "capital": "Conakry",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/gn.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Guinean franc"
+    ]
+  },
+  {
+    "name": "Fiji",
+    "capital": "Suva",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/fj.png",
+    "languages": [
+      "English",
+      "Fijian",
+      "Fiji Hindi"
+    ],
+    "currency": [
+      "Fijian dollar"
+    ]
+  },
+  {
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/sa.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Saudi riyal"
+    ]
+  },
+  {
+    "name": "New Caledonia",
+    "capital": "Nouméa",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/nc.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "CFP franc"
+    ]
+  },
+  {
+    "name": "Cape Verde",
+    "capital": "Praia",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/cv.png",
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": [
+      "Cape Verdean escudo"
+    ]
+  },
+  {
+    "name": "Christmas Island",
+    "capital": "Flying Fish Cove",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/cx.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Australian dollar"
+    ]
+  },
+  {
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/za.png",
+    "languages": [
+      "Afrikaans",
+      "English",
+      "Southern Ndebele",
+      "Northern Sotho",
+      "Southern Sotho",
+      "Swazi",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zulu"
+    ],
+    "currency": [
+      "South African rand"
+    ]
+  },
+  {
+    "name": "Iran",
+    "capital": "Tehran",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/ir.png",
+    "languages": [
+      "Persian (Farsi)"
+    ],
+    "currency": [
+      "Iranian rial"
+    ]
+  },
+  {
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/az.png",
+    "languages": [
+      "Azerbaijani"
+    ],
+    "currency": [
+      "Azerbaijani manat"
+    ]
+  },
+  {
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/np.png",
+    "languages": [
+      "Nepali"
+    ],
+    "currency": [
+      "Nepalese rupee"
+    ]
+  },
+  {
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/lb.png",
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "currency": [
+      "Lebanese pound"
+    ]
+  },
+  {
+    "name": "British Indian Ocean Territory",
+    "capital": "Diego Garcia",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/io.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "South Sudan",
+    "capital": "Juba",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ss.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "South Sudanese pound"
+    ]
+  },
+  {
+    "name": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/st.png",
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": [
+      "São Tomé and Príncipe dobra"
+    ]
+  },
+  {
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/md.png",
+    "languages": [
+      "Romanian"
+    ],
+    "currency": [
+      "Moldovan leu"
+    ]
+  },
+  {
+    "name": "United States Virgin Islands",
+    "capital": "Charlotte Amalie",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/vi.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/rw.png",
+    "languages": [
+      "English",
+      "French",
+      "Kinyarwanda"
+    ],
+    "currency": [
+      "Rwandan franc"
+    ]
+  },
+  {
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/me.png",
+    "languages": [
+      "Montenegrin"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/kg.png",
+    "languages": [
+      "Kyrgyz",
+      "Russian"
+    ],
+    "currency": [
+      "Kyrgyzstani som"
+    ]
+  },
+  {
+    "name": "Burundi",
+    "capital": "Gitega",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/bi.png",
+    "languages": [
+      "French",
+      "Kirundi"
+    ],
+    "currency": [
+      "Burundian franc"
+    ]
+  },
+  {
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/ki.png",
+    "languages": [
+      "English",
+      "Gilbertese"
+    ],
+    "currency": [
+      "Australian dollar",
+      "Kiribati dollar"
+    ]
+  },
+  {
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/bb.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Barbadian dollar"
+    ]
+  },
+  {
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/ad.png",
+    "languages": [
+      "Catalan"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/kz.png",
+    "languages": [
+      "Kazakh",
+      "Russian"
+    ],
+    "currency": [
+      "Kazakhstani tenge"
+    ]
+  },
+  {
+    "name": "Jordan",
+    "capital": "Amman",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/jo.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Jordanian dinar"
+    ]
+  },
+  {
+    "name": "Macau",
+    "capital": "",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/mo.png",
+    "languages": [
+      "Portuguese",
+      "Chinese"
+    ],
+    "currency": [
+      "Macanese pataca"
+    ]
+  },
+  {
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/cy.png",
+    "languages": [
+      "Greek",
+      "Turkish"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/id.png",
+    "languages": [
+      "Indonesian"
+    ],
+    "currency": [
+      "Indonesian rupiah"
+    ]
+  },
+  {
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/sv.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Åland Islands",
+    "capital": "Mariehamn",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/ax.png",
+    "languages": [
+      "Swedish"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/bn.png",
+    "languages": [
+      "Malay"
+    ],
+    "currency": [
+      "Brunei dollar",
+      "Singapore dollar"
+    ]
+  },
+  {
+    "name": "Wallis and Futuna",
+    "capital": "Mata-Utu",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/wf.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "CFP franc"
+    ]
+  },
+  {
+    "name": "Japan",
+    "capital": "Tokyo",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/jp.png",
+    "languages": [
+      "Japanese"
+    ],
+    "currency": [
+      "Japanese yen"
+    ]
+  },
+  {
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/ee.png",
+    "languages": [
+      "Estonian"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/mp.png",
+    "languages": [
+      "Carolinian",
+      "Chamorro",
+      "English"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Canada",
+    "capital": "Ottawa",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ca.png",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "currency": [
+      "Canadian dollar"
+    ]
+  },
+  {
+    "name": "French Southern and Antarctic Lands",
+    "capital": "Port-aux-Français",
+    "region": "Antarctic",
+    "flagUrlPNG": "https://flagcdn.com/w320/tf.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Svalbard and Jan Mayen",
+    "capital": "Longyearbyen",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/sj.png",
+    "languages": [
+      "Norwegian"
+    ],
+    "currency": [
+      "krone"
+    ]
+  },
+  {
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/ae.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "United Arab Emirates dirham"
+    ]
+  },
+  {
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/bw.png",
+    "languages": [
+      "English",
+      "Tswana"
+    ],
+    "currency": [
+      "Botswana pula"
+    ]
+  },
+  {
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/mr.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Mauritanian ouguiya"
+    ]
+  },
+  {
+    "name": "Western Sahara",
+    "capital": "El Aaiún",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/eh.png",
+    "languages": [
+      "Berber",
+      "Hassaniya",
+      "Spanish"
+    ],
+    "currency": [
+      "Algerian dinar",
+      "Moroccan dirham",
+      "Mauritanian ouguiya"
+    ]
+  },
+  {
+    "name": "Guam",
+    "capital": "Hagåtña",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/gu.png",
+    "languages": [
+      "Chamorro",
+      "English",
+      "Spanish"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/mg.png",
+    "languages": [
+      "French",
+      "Malagasy"
+    ],
+    "currency": [
+      "Malagasy ariary"
+    ]
+  },
+  {
+    "name": "Laos",
+    "capital": "Vientiane",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/la.png",
+    "languages": [
+      "Lao"
+    ],
+    "currency": [
+      "Lao kip"
+    ]
+  },
+  {
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/so.png",
+    "languages": [
+      "Arabic",
+      "Somali"
+    ],
+    "currency": [
+      "Somali shilling"
+    ]
+  },
+  {
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ht.png",
+    "languages": [
+      "French",
+      "Haitian Creole"
+    ],
+    "currency": [
+      "Haitian gourde"
+    ]
+  },
+  {
+    "name": "Falkland Islands",
+    "capital": "Stanley",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/fk.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Falkland Islands pound"
+    ]
+  },
+  {
+    "name": "Czechia",
+    "capital": "Prague",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/cz.png",
+    "languages": [
+      "Czech",
+      "Slovak"
+    ],
+    "currency": [
+      "Czech koruna"
+    ]
+  },
+  {
+    "name": "Bahamas",
+    "capital": "Nassau",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/bs.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Bahamian dollar",
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Malta",
+    "capital": "Valletta",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/mt.png",
+    "languages": [
+      "English",
+      "Maltese"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/mu.png",
+    "languages": [
+      "English",
+      "French",
+      "Mauritian Creole"
+    ],
+    "currency": [
+      "Mauritian rupee"
+    ]
+  },
+  {
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/pk.png",
+    "languages": [
+      "English",
+      "Urdu"
+    ],
+    "currency": [
+      "Pakistani rupee"
+    ]
+  },
+  {
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/sd.png",
+    "languages": [
+      "Arabic",
+      "English"
+    ],
+    "currency": [
+      "Sudanese pound"
+    ]
+  },
+  {
+    "name": "Latvia",
+    "capital": "Riga",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/lv.png",
+    "languages": [
+      "Latvian"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/lt.png",
+    "languages": [
+      "Lithuanian"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/pt.png",
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/lu.png",
+    "languages": [
+      "German",
+      "French",
+      "Luxembourgish"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/mk.png",
+    "languages": [
+      "Macedonian"
+    ],
+    "currency": [
+      "denar"
+    ]
+  },
+  {
+    "name": "South Georgia",
+    "capital": "King Edward Point",
+    "region": "Antarctic",
+    "flagUrlPNG": "https://flagcdn.com/w320/gs.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "British pound"
+    ]
+  },
+  {
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/rs.png",
+    "languages": [
+      "Serbian"
+    ],
+    "currency": [
+      "Serbian dinar"
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "capital": "London",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/gb.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "British pound"
+    ]
+  },
+  {
+    "name": "Tokelau",
+    "capital": "Fakaofo",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/tk.png",
+    "languages": [
+      "English",
+      "Samoan",
+      "Tokelauan"
+    ],
+    "currency": [
+      "New Zealand dollar"
+    ]
+  },
+  {
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ke.png",
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": [
+      "Kenyan shilling"
+    ]
+  },
+  {
+    "name": "Niger",
+    "capital": "Niamey",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ne.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "West African CFA franc"
+    ]
+  },
+  {
+    "name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/cg.png",
+    "languages": [
+      "French",
+      "Kikongo",
+      "Lingala"
+    ],
+    "currency": [
+      "Central African CFA franc"
+    ]
+  },
+  {
+    "name": "Cuba",
+    "capital": "Havana",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/cu.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Cuban convertible peso",
+      "Cuban peso"
+    ]
+  },
+  {
+    "name": "Eswatini",
+    "capital": "Mbabane",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/sz.png",
+    "languages": [
+      "English",
+      "Swazi"
+    ],
+    "currency": [
+      "Swazi lilangeni",
+      "South African rand"
+    ]
+  },
+  {
+    "name": "Albania",
+    "capital": "Tirana",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/al.png",
+    "languages": [
+      "Albanian"
+    ],
+    "currency": [
+      "Albanian lek"
+    ]
+  },
+  {
+    "name": "Mali",
+    "capital": "Bamako",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ml.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "West African CFA franc"
+    ]
+  },
+  {
+    "name": "Togo",
+    "capital": "Lomé",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/tg.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "West African CFA franc"
+    ]
+  },
+  {
+    "name": "Romania",
+    "capital": "Bucharest",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/ro.png",
+    "languages": [
+      "Romanian"
+    ],
+    "currency": [
+      "Romanian leu"
+    ]
+  },
+  {
+    "name": "Oman",
+    "capital": "Muscat",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/om.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Omani rial"
+    ]
+  },
+  {
+    "name": "Egypt",
+    "capital": "Cairo",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/eg.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Egyptian pound"
+    ]
+  },
+  {
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/nz.png",
+    "languages": [
+      "English",
+      "Māori",
+      "New Zealand Sign Language"
+    ],
+    "currency": [
+      "New Zealand dollar"
+    ]
+  },
+  {
+    "name": "Russia",
+    "capital": "Moscow",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/ru.png",
+    "languages": [
+      "Russian"
+    ],
+    "currency": [
+      "Russian ruble"
+    ]
+  },
+  {
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/tm.png",
+    "languages": [
+      "Russian",
+      "Turkmen"
+    ],
+    "currency": [
+      "Turkmenistan manat"
+    ]
+  },
+  {
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/cm.png",
+    "languages": [
+      "English",
+      "French"
+    ],
+    "currency": [
+      "Central African CFA franc"
+    ]
+  },
+  {
+    "name": "Cook Islands",
+    "capital": "Avarua",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/ck.png",
+    "languages": [
+      "English",
+      "Cook Islands Māori"
+    ],
+    "currency": [
+      "Cook Islands dollar",
+      "New Zealand dollar"
+    ]
+  },
+  {
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/si.png",
+    "languages": [
+      "Slovene"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/vu.png",
+    "languages": [
+      "Bislama",
+      "English",
+      "French"
+    ],
+    "currency": [
+      "Vanuatu vatu"
+    ]
+  },
+  {
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/kn.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Eastern Caribbean dollar"
+    ]
+  },
+  {
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/uy.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Uruguayan peso"
+    ]
+  },
+  {
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/dk.png",
+    "languages": [
+      "Danish"
+    ],
+    "currency": [
+      "Danish krone"
+    ]
+  },
+  {
+    "name": "Philippines",
+    "capital": "Manila",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/ph.png",
+    "languages": [
+      "English",
+      "Filipino"
+    ],
+    "currency": [
+      "Philippine peso"
+    ]
+  },
+  {
+    "name": "Palestine",
+    "capital": "Ramallah",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/ps.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Egyptian pound",
+      "Israeli new shekel",
+      "Jordanian dinar"
+    ]
+  },
+  {
+    "name": "Pitcairn Islands",
+    "capital": "Adamstown",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/pn.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "New Zealand dollar"
+    ]
+  },
+  {
+    "name": "French Guiana",
+    "capital": "Cayenne",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/gf.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Italy",
+    "capital": "Rome",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/it.png",
+    "languages": [
+      "Italian",
+      "Catalan"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/uz.png",
+    "languages": [
+      "Russian",
+      "Uzbek"
+    ],
+    "currency": [
+      "Uzbekistani soʻm"
+    ]
+  },
+  {
+    "name": "Dominica",
+    "capital": "Roseau",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/dm.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Eastern Caribbean dollar"
+    ]
+  },
+  {
+    "name": "Finland",
+    "capital": "Helsinki",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/fi.png",
+    "languages": [
+      "Finnish",
+      "Swedish"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "South Korea",
+    "capital": "Seoul",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/kr.png",
+    "languages": [
+      "Korean"
+    ],
+    "currency": [
+      "South Korean won"
+    ]
+  },
+  {
+    "name": "Heard Island and McDonald Islands",
+    "capital": "",
+    "region": "Antarctic",
+    "flagUrlPNG": "https://flagcdn.com/w320/hm.png",
+    "languages": [
+      "English"
+    ],
+    "currency": []
+  },
+  {
+    "name": "Faroe Islands",
+    "capital": "Tórshavn",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/fo.png",
+    "languages": [
+      "Danish",
+      "Faroese"
+    ],
+    "currency": [
+      "Danish krone",
+      "Faroese króna"
+    ]
+  },
+  {
+    "name": "Qatar",
+    "capital": "Doha",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/qa.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Qatari riyal"
+    ]
+  },
+  {
+    "name": "India",
+    "capital": "New Delhi",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/in.png",
+    "languages": [
+      "English",
+      "Hindi",
+      "Tamil"
+    ],
+    "currency": [
+      "Indian rupee"
+    ]
+  },
+  {
+    "name": "Mayotte",
+    "capital": "Mamoudzou",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/yt.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/gp.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/mz.png",
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": [
+      "Mozambican metical"
+    ]
+  },
+  {
+    "name": "Bouvet Island",
+    "capital": "",
+    "region": "Antarctic",
+    "flagUrlPNG": "https://flagcdn.com/w320/bv.png",
+    "languages": [
+      "Norwegian"
+    ],
+    "currency": []
+  },
+  {
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/ye.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Yemeni rial"
+    ]
+  },
+  {
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/xk.png",
+    "languages": [
+      "Albanian",
+      "Serbian"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Taiwan",
+    "capital": "Taipei",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/tw.png",
+    "languages": [
+      "Chinese"
+    ],
+    "currency": [
+      "New Taiwan dollar"
+    ]
+  },
+  {
+    "name": "Bermuda",
+    "capital": "Hamilton",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/bm.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Bermudian dollar"
+    ]
+  },
+  {
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/ge.png",
+    "languages": [
+      "Georgian"
+    ],
+    "currency": [
+      "lari"
+    ]
+  },
+  {
+    "name": "Anguilla",
+    "capital": "The Valley",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ai.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Eastern Caribbean dollar"
+    ]
+  },
+  {
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/vc.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Eastern Caribbean dollar"
+    ]
+  },
+  {
+    "name": "Belize",
+    "capital": "Belmopan",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/bz.png",
+    "languages": [
+      "Belizean Creole",
+      "English",
+      "Spanish"
+    ],
+    "currency": [
+      "Belize dollar"
+    ]
+  },
+  {
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/mw.png",
+    "languages": [
+      "English",
+      "Chewa"
+    ],
+    "currency": [
+      "Malawian kwacha"
+    ]
+  },
+  {
+    "name": "Aruba",
+    "capital": "Oranjestad",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/aw.png",
+    "languages": [
+      "Dutch",
+      "Papiamento"
+    ],
+    "currency": [
+      "Aruban florin"
+    ]
+  },
+  {
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/il.png",
+    "languages": [
+      "Arabic",
+      "Hebrew"
+    ],
+    "currency": [
+      "Israeli new shekel"
+    ]
+  },
+  {
+    "name": "Isle of Man",
+    "capital": "Douglas",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/im.png",
+    "languages": [
+      "English",
+      "Manx"
+    ],
+    "currency": [
+      "British pound",
+      "Manx pound"
+    ]
+  },
+  {
+    "name": "Belarus",
+    "capital": "Minsk",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/by.png",
+    "languages": [
+      "Belarusian",
+      "Russian"
+    ],
+    "currency": [
+      "Belarusian ruble"
+    ]
+  },
+  {
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/na.png",
+    "languages": [
+      "Afrikaans",
+      "German",
+      "English",
+      "Herero",
+      "Khoekhoe",
+      "Kwangali",
+      "Lozi",
+      "Ndonga",
+      "Tswana"
+    ],
+    "currency": [
+      "Namibian dollar",
+      "South African rand"
+    ]
+  },
+  {
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/gt.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Guatemalan quetzal"
+    ]
+  },
+  {
+    "name": "Brazil",
+    "capital": "Brasília",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/br.png",
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": [
+      "Brazilian real"
+    ]
+  },
+  {
+    "name": "Poland",
+    "capital": "Warsaw",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/pl.png",
+    "languages": [
+      "Polish"
+    ],
+    "currency": [
+      "Polish złoty"
+    ]
+  },
+  {
+    "name": "Maldives",
+    "capital": "Malé",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/mv.png",
+    "languages": [
+      "Maldivian"
+    ],
+    "currency": [
+      "Maldivian rufiyaa"
+    ]
+  },
+  {
+    "name": "Singapore",
+    "capital": "Singapore",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/sg.png",
+    "languages": [
+      "English",
+      "Chinese",
+      "Malay",
+      "Tamil"
+    ],
+    "currency": [
+      "Singapore dollar"
+    ]
+  },
+  {
+    "name": "Greenland",
+    "capital": "Nuuk",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/gl.png",
+    "languages": [
+      "Greenlandic"
+    ],
+    "currency": [
+      "krone"
+    ]
+  },
+  {
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/gy.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Guyanese dollar"
+    ]
+  },
+  {
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/kp.png",
+    "languages": [
+      "Korean"
+    ],
+    "currency": [
+      "North Korean won"
+    ]
+  },
+  {
+    "name": "Ireland",
+    "capital": "Dublin",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/ie.png",
+    "languages": [
+      "English",
+      "Irish"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/sb.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Solomon Islands dollar"
+    ]
+  },
+  {
+    "name": "Gibraltar",
+    "capital": "Gibraltar",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/gi.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Gibraltar pound"
+    ]
+  },
+  {
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/mh.png",
+    "languages": [
+      "English",
+      "Marshallese"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/tn.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Tunisian dinar"
+    ]
+  },
+  {
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/tv.png",
+    "languages": [
+      "English",
+      "Tuvaluan"
+    ],
+    "currency": [
+      "Australian dollar",
+      "Tuvaluan dollar"
+    ]
+  },
+  {
+    "name": "Sint Maarten",
+    "capital": "Philipsburg",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/sx.png",
+    "languages": [
+      "English",
+      "French",
+      "Dutch"
+    ],
+    "currency": [
+      "Netherlands Antillean guilder"
+    ]
+  },
+  {
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/er.png",
+    "languages": [
+      "Arabic",
+      "English",
+      "Tigrinya"
+    ],
+    "currency": [
+      "Eritrean nakfa"
+    ]
+  },
+  {
+    "name": "Samoa",
+    "capital": "Apia",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/ws.png",
+    "languages": [
+      "English",
+      "Samoan"
+    ],
+    "currency": [
+      "Samoan tālā"
+    ]
+  },
+  {
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/do.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Dominican peso"
+    ]
+  },
+  {
+    "name": "Uganda",
+    "capital": "Kampala",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ug.png",
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": [
+      "Ugandan shilling"
+    ]
+  },
+  {
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/iq.png",
+    "languages": [
+      "Arabic",
+      "Aramaic",
+      "Sorani"
+    ],
+    "currency": [
+      "Iraqi dinar"
+    ]
+  },
+  {
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/ua.png",
+    "languages": [
+      "Ukrainian"
+    ],
+    "currency": [
+      "Ukrainian hryvnia"
+    ]
+  },
+  {
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/lr.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Liberian dollar"
+    ]
+  },
+  {
+    "name": "Hong Kong",
+    "capital": "City of Victoria",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/hk.png",
+    "languages": [
+      "English",
+      "Chinese"
+    ],
+    "currency": [
+      "Hong Kong dollar"
+    ]
+  },
+  {
+    "name": "Nauru",
+    "capital": "Yaren",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/nr.png",
+    "languages": [
+      "English",
+      "Nauru"
+    ],
+    "currency": [
+      "Australian dollar"
+    ]
+  },
+  {
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/li.png",
+    "languages": [
+      "German"
+    ],
+    "currency": [
+      "Swiss franc"
+    ]
+  },
+  {
+    "name": "Spain",
+    "capital": "Madrid",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/es.png",
+    "languages": [
+      "Spanish",
+      "Catalan",
+      "Basque",
+      "Galician"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Turkey",
+    "capital": "Ankara",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/tr.png",
+    "languages": [
+      "Turkish"
+    ],
+    "currency": [
+      "Turkish lira"
+    ]
+  },
+  {
+    "name": "United States Minor Outlying Islands",
+    "capital": "Washington DC",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/um.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Germany",
+    "capital": "Berlin",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/de.png",
+    "languages": [
+      "German"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/sc.png",
+    "languages": [
+      "Seychellois Creole",
+      "English",
+      "French"
+    ],
+    "currency": [
+      "Seychellois rupee"
+    ]
+  },
+  {
+    "name": "Australia",
+    "capital": "Canberra",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/au.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Australian dollar"
+    ]
+  },
+  {
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/bg.png",
+    "languages": [
+      "Bulgarian"
+    ],
+    "currency": [
+      "Bulgarian lev"
+    ]
+  },
+  {
+    "name": "Algeria",
+    "capital": "Algiers",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/dz.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Algerian dinar"
+    ]
+  },
+  {
+    "name": "Angola",
+    "capital": "Luanda",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ao.png",
+    "languages": [
+      "Portuguese"
+    ],
+    "currency": [
+      "Angolan kwanza"
+    ]
+  },
+  {
+    "name": "Peru",
+    "capital": "Lima",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/pe.png",
+    "languages": [
+      "Aymara",
+      "Quechua",
+      "Spanish"
+    ],
+    "currency": [
+      "Peruvian sol"
+    ]
+  },
+  {
+    "name": "Chile",
+    "capital": "Santiago",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/cl.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Chilean peso"
+    ]
+  },
+  {
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ni.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Nicaraguan córdoba"
+    ]
+  },
+  {
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/zw.png",
+    "languages": [
+      "Chibarwe",
+      "English",
+      "Kalanga",
+      "Khoisan",
+      "Ndau",
+      "Northern Ndebele",
+      "Chewa",
+      "Shona",
+      "Sotho",
+      "Tonga",
+      "Tswana",
+      "Tsonga",
+      "Venda",
+      "Xhosa",
+      "Zimbabwean Sign Language"
+    ],
+    "currency": [
+      "Zimbabwean dollar"
+    ]
+  },
+  {
+    "name": "Jersey",
+    "capital": "Saint Helier",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/je.png",
+    "languages": [
+      "English",
+      "French",
+      "Jèrriais"
+    ],
+    "currency": [
+      "British pound",
+      "Jersey pound"
+    ]
+  },
+  {
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/bj.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "West African CFA franc"
+    ]
+  },
+  {
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/co.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Colombian peso"
+    ]
+  },
+  {
+    "name": "Austria",
+    "capital": "Vienna",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/at.png",
+    "languages": [
+      "German"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Bahrain",
+    "capital": "Manama",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/bh.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Bahraini dinar"
+    ]
+  },
+  {
+    "name": "Morocco",
+    "capital": "Rabat",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ma.png",
+    "languages": [
+      "Arabic",
+      "Berber"
+    ],
+    "currency": [
+      "Moroccan dirham"
+    ]
+  },
+  {
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/tz.png",
+    "languages": [
+      "English",
+      "Swahili"
+    ],
+    "currency": [
+      "Tanzanian shilling"
+    ]
+  },
+  {
+    "name": "Grenada",
+    "capital": "St. George's",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/gd.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Eastern Caribbean dollar"
+    ]
+  },
+  {
+    "name": "British Virgin Islands",
+    "capital": "Road Town",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/vg.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/sm.png",
+    "languages": [
+      "Italian"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ve.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Venezuelan bolívar soberano"
+    ]
+  },
+  {
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/gw.png",
+    "languages": [
+      "Portuguese",
+      "Upper Guinea Creole"
+    ],
+    "currency": [
+      "West African CFA franc"
+    ]
+  },
+  {
+    "name": "Norfolk Island",
+    "capital": "Kingston",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/nf.png",
+    "languages": [
+      "English",
+      "Norfuk"
+    ],
+    "currency": [
+      "Australian dollar"
+    ]
+  },
+  {
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/is.png",
+    "languages": [
+      "Icelandic"
+    ],
+    "currency": [
+      "Icelandic króna"
+    ]
+  },
+  {
+    "name": "Montserrat",
+    "capital": "Plymouth",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ms.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Eastern Caribbean dollar"
+    ]
+  },
+  {
+    "name": "United States",
+    "capital": "Washington, D.C.",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/us.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/tt.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Trinidad and Tobago dollar"
+    ]
+  },
+  {
+    "name": "France",
+    "capital": "Paris",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/fr.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Martinique",
+    "capital": "Fort-de-France",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/mq.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Costa Rica",
+    "capital": "San José",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/cr.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Costa Rican colón"
+    ]
+  },
+  {
+    "name": "Belgium",
+    "capital": "Brussels",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/be.png",
+    "languages": [
+      "German",
+      "French",
+      "Dutch"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Saint Martin",
+    "capital": "Marigot",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/mf.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/pg.png",
+    "languages": [
+      "English",
+      "Hiri Motu",
+      "Tok Pisin"
+    ],
+    "currency": [
+      "Papua New Guinean kina"
+    ]
+  },
+  {
+    "name": "Micronesia",
+    "capital": "Palikir",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/fm.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ag.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Eastern Caribbean dollar"
+    ]
+  },
+  {
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/kh.png",
+    "languages": [
+      "Khmer"
+    ],
+    "currency": [
+      "Cambodian riel",
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/jm.png",
+    "languages": [
+      "English",
+      "Jamaican Patois"
+    ],
+    "currency": [
+      "Jamaican dollar"
+    ]
+  },
+  {
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/sr.png",
+    "languages": [
+      "Dutch"
+    ],
+    "currency": [
+      "Surinamese dollar"
+    ]
+  },
+  {
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/zm.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Zambian kwacha"
+    ]
+  },
+  {
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/am.png",
+    "languages": [
+      "Armenian"
+    ],
+    "currency": [
+      "Armenian dram"
+    ]
+  },
+  {
+    "name": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/tc.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Gabon",
+    "capital": "Libreville",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ga.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Central African CFA franc"
+    ]
+  },
+  {
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/vn.png",
+    "languages": [
+      "Vietnamese"
+    ],
+    "currency": [
+      "Vietnamese đồng"
+    ]
+  },
+  {
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/dj.png",
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "currency": [
+      "Djiboutian franc"
+    ]
+  },
+  {
+    "name": "Guernsey",
+    "capital": "St. Peter Port",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/gg.png",
+    "languages": [
+      "English",
+      "French",
+      "Guernésiais"
+    ],
+    "currency": [
+      "British pound",
+      "Guernsey pound"
+    ]
+  },
+  {
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "capital": "Jamestown",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/sh.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Pound sterling",
+      "Saint Helena pound"
+    ]
+  },
+  {
+    "name": "Greece",
+    "capital": "Athens",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/gr.png",
+    "languages": [
+      "Greek"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "French Polynesia",
+    "capital": "Papeetē",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/pf.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "CFP franc"
+    ]
+  },
+  {
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/kw.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Kuwaiti dinar"
+    ]
+  },
+  {
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/sl.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Leone"
+    ]
+  },
+  {
+    "name": "Antarctica",
+    "capital": "",
+    "region": "Antarctic",
+    "flagUrlPNG": "https://flagcdn.com/w320/aq.png",
+    "languages": [],
+    "currency": []
+  },
+  {
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/hn.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Honduran lempira"
+    ]
+  },
+  {
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/mx.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "Mexican peso"
+    ]
+  },
+  {
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ng.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Nigerian naira"
+    ]
+  },
+  {
+    "name": "Libya",
+    "capital": "Tripoli",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ly.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Libyan dinar"
+    ]
+  },
+  {
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/th.png",
+    "languages": [
+      "Thai"
+    ],
+    "currency": [
+      "Thai baht"
+    ]
+  },
+  {
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/cf.png",
+    "languages": [
+      "French",
+      "Sango"
+    ],
+    "currency": [
+      "Central African CFA franc"
+    ]
+  },
+  {
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/py.png",
+    "languages": [
+      "Guaraní",
+      "Spanish"
+    ],
+    "currency": [
+      "Paraguayan guaraní"
+    ]
+  },
+  {
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/tl.png",
+    "languages": [
+      "Portuguese",
+      "Tetum"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "American Samoa",
+    "capital": "Pago Pago",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/as.png",
+    "languages": [
+      "English",
+      "Samoan"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Senegal",
+    "capital": "Dakar",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/sn.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "West African CFA franc"
+    ]
+  },
+  {
+    "name": "Réunion",
+    "capital": "Saint-Denis",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/re.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/lc.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Eastern Caribbean dollar"
+    ]
+  },
+  {
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "region": "Asia",
+    "flagUrlPNG": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png",
+    "languages": [
+      "Dari",
+      "Pashto",
+      "Turkmen"
+    ],
+    "currency": [
+      "Afghan afghani"
+    ]
+  },
+  {
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/bt.png",
+    "languages": [
+      "Dzongkha"
+    ],
+    "currency": [
+      "Bhutanese ngultrum",
+      "Indian rupee"
+    ]
+  },
+  {
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/mm.png",
+    "languages": [
+      "Burmese"
+    ],
+    "currency": [
+      "Burmese kyat"
+    ]
+  },
+  {
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/gq.png",
+    "languages": [
+      "French",
+      "Portuguese",
+      "Spanish"
+    ],
+    "currency": [
+      "Central African CFA franc"
+    ]
+  },
+  {
+    "name": "Cocos (Keeling) Islands",
+    "capital": "West Island",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/cc.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Australian dollar"
+    ]
+  },
+  {
+    "name": "Syria",
+    "capital": "Damascus",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/sy.png",
+    "languages": [
+      "Arabic"
+    ],
+    "currency": [
+      "Syrian pound"
+    ]
+  },
+  {
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/hr.png",
+    "languages": [
+      "Croatian"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Puerto Rico",
+    "capital": "San Juan",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/pr.png",
+    "languages": [
+      "English",
+      "Spanish"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Caribbean Netherlands",
+    "capital": "Kralendijk",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/bq.png",
+    "languages": [
+      "English",
+      "Dutch",
+      "Papiamento"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/bo.png",
+    "languages": [
+      "Aymara",
+      "Guaraní",
+      "Quechua",
+      "Spanish"
+    ],
+    "currency": [
+      "Bolivian boliviano"
+    ]
+  },
+  {
+    "name": "Saint Pierre and Miquelon",
+    "capital": "Saint-Pierre",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/pm.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "DR Congo",
+    "capital": "Kinshasa",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/cd.png",
+    "languages": [
+      "French",
+      "Kikongo",
+      "Lingala",
+      "Tshiluba",
+      "Swahili"
+    ],
+    "currency": [
+      "Congolese franc"
+    ]
+  },
+  {
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ar.png",
+    "languages": [
+      "Guaraní",
+      "Spanish"
+    ],
+    "currency": [
+      "Argentine peso"
+    ]
+  },
+  {
+    "name": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/lk.png",
+    "languages": [
+      "Sinhala",
+      "Tamil"
+    ],
+    "currency": [
+      "Sri Lankan rupee"
+    ]
+  },
+  {
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/td.png",
+    "languages": [
+      "Arabic",
+      "French"
+    ],
+    "currency": [
+      "Central African CFA franc"
+    ]
+  },
+  {
+    "name": "Curaçao",
+    "capital": "Willemstad",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/cw.png",
+    "languages": [
+      "English",
+      "Dutch",
+      "Papiamento"
+    ],
+    "currency": [
+      "Netherlands Antillean guilder"
+    ]
+  },
+  {
+    "name": "Ecuador",
+    "capital": "Quito",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ec.png",
+    "languages": [
+      "Spanish"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  },
+  {
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ls.png",
+    "languages": [
+      "English",
+      "Sotho"
+    ],
+    "currency": [
+      "Lesotho loti",
+      "South African rand"
+    ]
+  },
+  {
+    "name": "Gambia",
+    "capital": "Banjul",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/gm.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "dalasi"
+    ]
+  },
+  {
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/sk.png",
+    "languages": [
+      "Slovak"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/my.png",
+    "languages": [
+      "English",
+      "Malay"
+    ],
+    "currency": [
+      "Malaysian ringgit"
+    ]
+  },
+  {
+    "name": "Norway",
+    "capital": "Oslo",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/no.png",
+    "languages": [
+      "Norwegian Nynorsk",
+      "Norwegian Bokmål",
+      "Sami"
+    ],
+    "currency": [
+      "Norwegian krone"
+    ]
+  },
+  {
+    "name": "Ghana",
+    "capital": "Accra",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/gh.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Ghanaian cedi"
+    ]
+  },
+  {
+    "name": "Switzerland",
+    "capital": "Bern",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/ch.png",
+    "languages": [
+      "French",
+      "Swiss German",
+      "Italian",
+      "Romansh"
+    ],
+    "currency": [
+      "Swiss franc"
+    ]
+  },
+  {
+    "name": "Hungary",
+    "capital": "Budapest",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/hu.png",
+    "languages": [
+      "Hungarian"
+    ],
+    "currency": [
+      "Hungarian forint"
+    ]
+  },
+  {
+    "name": "Vatican City",
+    "capital": "Vatican City",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/va.png",
+    "languages": [
+      "Italian",
+      "Latin"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/nl.png",
+    "languages": [
+      "Dutch"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/bf.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "West African CFA franc"
+    ]
+  },
+  {
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/bd.png",
+    "languages": [
+      "Bengali"
+    ],
+    "currency": [
+      "Bangladeshi taka"
+    ]
+  },
+  {
+    "name": "Niue",
+    "capital": "Alofi",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/nu.png",
+    "languages": [
+      "English",
+      "Niuean"
+    ],
+    "currency": [
+      "New Zealand dollar"
+    ]
+  },
+  {
+    "name": "Ivory Coast",
+    "capital": "Yamoussoukro",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/ci.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "West African CFA franc"
+    ]
+  },
+  {
+    "name": "Monaco",
+    "capital": "Monaco",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/mc.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "Cayman Islands",
+    "capital": "George Town",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/ky.png",
+    "languages": [
+      "English"
+    ],
+    "currency": [
+      "Cayman Islands dollar"
+    ]
+  },
+  {
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "region": "Africa",
+    "flagUrlPNG": "https://flagcdn.com/w320/et.png",
+    "languages": [
+      "Amharic"
+    ],
+    "currency": [
+      "Ethiopian birr"
+    ]
+  },
+  {
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/tj.png",
+    "languages": [
+      "Russian",
+      "Tajik"
+    ],
+    "currency": [
+      "Tajikistani somoni"
+    ]
+  },
+  {
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "region": "Europe",
+    "flagUrlPNG": "https://flagcdn.com/w320/ba.png",
+    "languages": [
+      "Bosnian",
+      "Croatian",
+      "Serbian"
+    ],
+    "currency": [
+      "Bosnia and Herzegovina convertible mark"
+    ]
+  },
+  {
+    "name": "Saint Barthélemy",
+    "capital": "Gustavia",
+    "region": "Americas",
+    "flagUrlPNG": "https://flagcdn.com/w320/bl.png",
+    "languages": [
+      "French"
+    ],
+    "currency": [
+      "Euro"
+    ]
+  },
+  {
+    "name": "China",
+    "capital": "Beijing",
+    "region": "Asia",
+    "flagUrlPNG": "https://flagcdn.com/w320/cn.png",
+    "languages": [
+      "Chinese"
+    ],
+    "currency": [
+      "Chinese yuan"
+    ]
+  },
+  {
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "region": "Oceania",
+    "flagUrlPNG": "https://flagcdn.com/w320/pw.png",
+    "languages": [
+      "English",
+      "Palauan"
+    ],
+    "currency": [
+      "United States dollar"
+    ]
+  }
+]

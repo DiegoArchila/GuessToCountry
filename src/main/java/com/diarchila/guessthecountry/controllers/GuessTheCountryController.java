@@ -6,9 +6,14 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.util.Duration;
 
+import java.util.List;
+
+import com.diarchila.guessthecountry.models.Country;
+import com.diarchila.guessthecountry.services.CountryServices;
+
 public class GuessTheCountryController {
-    
-     @FXML
+
+    @FXML
     private Label lblWelcome;
 
     @FXML
@@ -19,6 +24,9 @@ public class GuessTheCountryController {
 
     @FXML
     private Button exitButton;
+
+    // Lista de países
+    List<Country> countries = CountryServices.COUNTRIES;
 
     @FXML
     public void initialize() {
@@ -33,6 +41,20 @@ public class GuessTheCountryController {
         // Lógica para iniciar el juego
         lblWelcome.setText("¡Buena suerte!");
         lblTitlegame.setText("Empieza el desafío...");
+
+        // Imprimir información de los países en la consola
+        for (int i = 0; i < countries.size(); i++) {
+            Country country = countries.get(i);
+            System.out.println("------------------ " + i + " ---------------------");
+            System.out.println("Nombre: " + country.getName());
+            System.out.println("Capital: " + country.getCapital());
+            System.out.println("Región: " + country.getRegion());
+            System.out.println("Bandera: " + country.getFlagUrlPNG());
+            System.out.println("Moneda: " + country.getCurrency());
+            System.out.println("Idiomas: " + country.getLanguages());
+            
+        }
+
     }
 
     @FXML
@@ -40,5 +62,5 @@ public class GuessTheCountryController {
         // Lógica para cerrar la aplicación
         System.exit(0);
     }
-    
+
 }
