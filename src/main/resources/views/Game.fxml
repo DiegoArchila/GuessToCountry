@@ -16,7 +16,13 @@
         <Insets top="30" right="20" bottom="30" left="20"/>
     </padding>
 
-    <Label fx:id="lblPregunta" text="¿A qué país pertenece esta bandera?" styleClass="label-pregunta"/>
+    <HBox spacing="40" alignment="CENTER">
+        <Label fx:id="lblmaxQuestions" text="Pregunta 1/10" styleClass="info-label"/>
+        <Label fx:id="lblScore" text="Puntuación: 0" styleClass="info-label"/>
+        <Label fx:id="lblTimer" text="Tiempo: 30s" styleClass="info-label"/>
+    </HBox>
+
+    <Label fx:id="lblQuestion" text="¿A qué país pertenece esta bandera?" styleClass="label-pregunta"/>
 
     <ImageView fx:id="imagenBandera" fitHeight="200" fitWidth="300" preserveRatio="true"/>
 

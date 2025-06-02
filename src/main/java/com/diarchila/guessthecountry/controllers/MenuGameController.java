@@ -43,18 +43,17 @@ public class MenuGameController {
     }
 
     @FXML
-    private void handleBtnIniciar(ActionEvent event) {
-        try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/GameS.fxml"));
-            Parent root = loader.load();
-            Scene scene = new Scene(root);
-            Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-            stage.setScene(scene);
-            stage.setTitle("Guess the Country - Game");
-            stage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    private void handleBtnIniciar(ActionEvent event) throws IOException {
+
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/Game.fxml"));
+
+        Parent root = loader.load();
+        Scene scene = new Scene(root, 600, 600);
+
+        stage.setScene(scene);
+
     }
 
     @FXML
@@ -71,7 +70,7 @@ public class MenuGameController {
 
     @FXML
     private void handleBtnSalir(ActionEvent event) {
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.close();
     }
 }
