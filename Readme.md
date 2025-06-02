@@ -1,8 +1,4 @@
-¡Claro! A continuación, te presento un ejemplo de archivo `README.md` para tu proyecto [GuessToCountry](https://github.com/DiegoArchila/GuessToCountry/tree/dev). Este archivo está estructurado para proporcionar una descripción clara del proyecto, sus características, instrucciones de instalación y uso, y otros detalles relevantes.
 
----
-
-````markdown
 # 🎌 GuessToCountry
 
 **GuessToCountry** es un juego interactivo desarrollado en JavaFX que desafía a los jugadores a identificar países a partir de sus banderas. Ideal para quienes desean mejorar sus conocimientos de geografía de una manera divertida y educativa.
@@ -99,17 +95,10 @@ Este proyecto está licenciado bajo la [MIT License](LICENSE).
 Desarrollado por **Diego Archila**.
 
 * GitHub: [@DiegoArchila](https://github.com/DiegoArchila)
-* Correo electrónico: [diego.archila@example.com](mailto:diego.archila@example.com)
+* Correo electrónico: [daat3523@gmail.com](mailto:daat3523@gmail.com)
 
 ---
 
 ¡Gracias por visitar este proyecto! Si te gusta, no olvides darle una estrella ⭐ y compartirlo.
 
-```
-
----
-
-Este archivo `README.md` proporciona una visión completa del proyecto, facilitando a otros desarrolladores y usuarios entender, instalar y contribuir al juego. Puedes adaptarlo según las necesidades específicas de tu proyecto y preferencias personales.
-::contentReference[oaicite:0]{index=0}
- 
 ```
