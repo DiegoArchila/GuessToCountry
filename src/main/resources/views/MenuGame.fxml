@@ -31,13 +31,13 @@
     <Button fx:id="btnIniciar" text="Empezar" styleClass="boton-azul"
         onAction="#handleBtnIniciar" />
 
-    <Button fx:id="btnMarcador" text="Puntaje"
+    <Button fx:id="btnMarcador" text="Puntaje" styleClass="boton-azul"
         onAction="#handleBtnMarcador" />
 
-    <Button fx:id="btnInstrucciones" text="Instrucciones" styleClass="boton-rojo"
+    <Button fx:id="btnInstrucciones" text="Instrucciones" styleClass="boton-azul"
         onAction="#handleBtnInstrucciones" />
 
-    <Button fx:id="btnSalir" text="Salir"
+    <Button fx:id="btnSalir" text="Salir" styleClass="boton-rojo"
         onAction="#handleBtnSalir" />
 
 </VBox>

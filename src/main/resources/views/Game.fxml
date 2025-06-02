@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/23.0.1"
+      fx:controller="com.diarchila.guessthecountry.controllers.GameController"
+      spacing="20" alignment="CENTER" stylesheets="@../styles/guessTheCountry.css">
+
+    <padding>
+        <Insets top="30" right="20" bottom="30" left="20"/>
+    </padding>
+
+    <Label fx:id="lblPregunta" text="¿A qué país pertenece esta bandera?" styleClass="label-pregunta"/>
+
+    <ImageView fx:id="imagenBandera" fitHeight="200" fitWidth="300" preserveRatio="true"/>
+
+    <VBox spacing="10">
+        <Button fx:id="btnOpcion1" text="Opción 1" styleClass="opcion-boton"/>
+        <Button fx:id="btnOpcion2" text="Opción 2" styleClass="opcion-boton"/>
+        <Button fx:id="btnOpcion3" text="Opción 3" styleClass="opcion-boton"/>
+        <Button fx:id="btnOpcion4" text="Opción 4" styleClass="opcion-boton"/>
+    </VBox>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button fx:id="btnSiguiente" text="Siguiente" styleClass="boton-azul"/>
+        <Button fx:id="btnSalirJuego" text="Salir" styleClass="boton-rojo"/>
+    </HBox>
+
+</VBox>

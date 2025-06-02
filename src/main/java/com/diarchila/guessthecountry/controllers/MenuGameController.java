@@ -45,7 +45,7 @@ public class MenuGameController {
     @FXML
     private void handleBtnIniciar(ActionEvent event) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/GameScene.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/GameS.fxml"));
             Parent root = loader.load();
             Scene scene = new Scene(root);
             Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
