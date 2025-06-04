@@ -57,9 +57,15 @@ public class MenuGameController {
     }
 
     @FXML
-    private void handleBtnMarcador(ActionEvent event) {
-        System.out.println("Mostrar marcador...");
-        // Aquí podrías cargar una nueva escena o mostrar un modal con puntajes
+    private void handleBtnMarcador(ActionEvent event) throws IOException {
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/Scores.fxml"));
+
+        Parent root = loader.load();
+        Scene scene = new Scene(root, 600, 600);
+
+        stage.setScene(scene);
     }
 
     @FXML

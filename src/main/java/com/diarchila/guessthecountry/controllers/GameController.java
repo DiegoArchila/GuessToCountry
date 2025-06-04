@@ -1,7 +1,9 @@
 package com.diarchila.guessthecountry.controllers;
 
 import com.diarchila.guessthecountry.models.Country;
+import com.diarchila.guessthecountry.models.Score;
 import com.diarchila.guessthecountry.services.CountryServices;
+import com.diarchila.guessthecountry.services.ScoreServices;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -32,6 +34,10 @@ public class GameController {
 
     Random random = new Random();
 
+    Score  scoreData = new Score();
+
+    ScoreServices scoreService = new ScoreServices();
+
     int score = 0;
     int MAXQUESTIONS = 10;
     int SCORE_CORRECT_ANSWER = 100;
@@ -51,14 +57,14 @@ public class GameController {
     private Button btnOpcion1, btnOpcion2, btnOpcion3, btnOpcion4;
 
     @FXML
-    private Button btnSiguiente, btnSalirJuego;
+    private Button btnNext, btnBackToMenuGame;
 
     @FXML
     private void initialize() {
 
-        btnSiguiente.setOnAction(e -> nextQuestion());
+        btnNext.setOnAction(e -> nextQuestion());
 
-        btnSalirJuego.setOnAction(event -> {
+        btnBackToMenuGame.setOnAction(event -> {
             try {
                 backToMenuGame(event);
             } catch (IOException e1) {
@@ -89,13 +95,21 @@ public class GameController {
             nextQuestion();
         } else {
             lblQuestion.setText("¡Juego terminado!");
-            btnSiguiente.setDisable(true);
+            btnNext.setDisable(true);
             btnOpcion1.setDisable(true);
             btnOpcion2.setDisable(true);
             btnOpcion3.setDisable(true);
             btnOpcion4.setDisable(true);
             System.out.println("Juego terminado. Tu puntuación final es: " + score);
+
+            scoreData.setScore(score);
+            scoreData.setDate(new java.util.Date());
+
+            ScoreServices.addScore(scoreData); // Guardamos la puntuación final
+
             // Aquí podrías mostrar un mensaje de fin de juego o reiniciar el juego
+
+
             return;
         }
 
@@ -149,13 +163,13 @@ public class GameController {
 
         startTimer();
  
-        btnSiguiente.setOnAction(e -> {
+        btnNext.setOnAction(e -> {
             score -= SCORE_WRONG_ANSWER; // Penalización por saltarse la pregunta
             nextQuestion();
             
         });
 
-        btnSalirJuego.setOnAction(event -> {
+        btnBackToMenuGame.setOnAction(event -> {
             try {
                 backToMenuGame(event);
             } catch (IOException e1) {

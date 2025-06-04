@@ -19,7 +19,7 @@ public class CountryServices {
     private static void loadCountries() {
         try {
             ObjectMapper countriesMapper = new ObjectMapper();
-            File file = new File("GuessTheCountry/src/main/resources/data/Countries.json");
+            File file = new File("src/main/resources/data/Countries.json");
             List<Country> countries = countriesMapper.readValue(file, new TypeReference<List<Country>>() {});
             COUNTRIES.addAll(countries);
         } catch (Exception e) {
