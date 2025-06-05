@@ -28,7 +28,7 @@
 }
 
 .button:hover {
-    -fx-background-color: #b3e5fc;
+    -fx-background-color: #388eb6;
 }
 
 /* Pregunta superior */
@@ -69,7 +69,7 @@
 }
 
 .info-label {
-      -fx-font-size: 15px;
+    -fx-font-size: 15px;
     -fx-font-weight: 600;
     -fx-text-fill: white;
     -fx-background-color: #2c3e50; /* Azul oscuro elegante */
@@ -108,7 +108,7 @@
 }
 
 .table-view .table-cell {
-    -fx-font-size: 13px;
+    -fx-font-size: 18px;
     -fx-text-fill: #37474f;
     -fx-padding: 8px;
 }

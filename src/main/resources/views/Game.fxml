@@ -34,7 +34,6 @@
     </VBox>
 
     <HBox spacing="10" alignment="CENTER">
-        <Button fx:id="btnNext" text="Siguiente" styleClass="boton-azul"/>
         <Button fx:id="btnBackToMenuGame" text="Salir" styleClass="boton-rojo"/>
     </HBox>
 

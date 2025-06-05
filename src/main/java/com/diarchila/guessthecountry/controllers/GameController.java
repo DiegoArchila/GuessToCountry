@@ -57,12 +57,10 @@ public class GameController {
     private Button btnOpcion1, btnOpcion2, btnOpcion3, btnOpcion4;
 
     @FXML
-    private Button btnNext, btnBackToMenuGame;
+    private Button btnBackToMenuGame;
 
     @FXML
     private void initialize() {
-
-        btnNext.setOnAction(e -> nextQuestion());
 
         btnBackToMenuGame.setOnAction(event -> {
             try {
@@ -95,20 +93,21 @@ public class GameController {
             nextQuestion();
         } else {
             lblQuestion.setText("¡Juego terminado!");
-            btnNext.setDisable(true);
+            lblScore.setText("Puntuación final: " + score);
             btnOpcion1.setDisable(true);
             btnOpcion2.setDisable(true);
             btnOpcion3.setDisable(true);
             btnOpcion4.setDisable(true);
             System.out.println("Juego terminado. Tu puntuación final es: " + score);
 
+            questionTimer.stop(); // Detener el temporizador
+            questionTimer = null; // Limpiar el temporizador
+            lblTimer.setText("Tiempo: 0s");
+
             scoreData.setScore(score);
             scoreData.setDate(new java.util.Date());
 
             ScoreServices.addScore(scoreData); // Guardamos la puntuación final
-
-            // Aquí podrías mostrar un mensaje de fin de juego o reiniciar el juego
-
 
             return;
         }
@@ -131,7 +130,7 @@ public class GameController {
 
         lblQuestion.setText("¿A qué país pertenece esta bandera?");
         Image bandera = new Image(currentCountryQuestion.getFlagUrlPNG());
-        System.out.println("URL de la bandera: " + bandera.getUrl());
+
         imagenBandera.setImage(bandera);
 
         // Limpiar botones antes de asignar nuevas opciones de respuesta
@@ -161,13 +160,10 @@ public class GameController {
         btnOpcion3.setOnAction(this::checkResponse);
         btnOpcion4.setOnAction(this::checkResponse);
 
+        // Mostramos el pais actual y la puntuación
+        System.out.println("Respuesta: " + currentCountryQuestion.getName());
+
         startTimer();
- 
-        btnNext.setOnAction(e -> {
-            score -= SCORE_WRONG_ANSWER; // Penalización por saltarse la pregunta
-            nextQuestion();
-            
-        });
 
         btnBackToMenuGame.setOnAction(event -> {
             try {
@@ -180,9 +176,6 @@ public class GameController {
 
     private void startTimer() {
 
-        if (countryQuestions.size() >= MAXQUESTIONS) {
-            return; // No iniciar el temporizador si ya se alcanzó el máximo de preguntas
-        }
         if (questionTimer != null) {
             questionTimer.stop();
         }
