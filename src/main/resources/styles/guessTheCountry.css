@@ -106,6 +106,32 @@
     -fx-alignment: center;
     -fx-font-size: 14px;
 }
+.boton-azul {
+    -fx-background-color: #2196F3;
+    -fx-text-fill: white;
+    -fx-padding: 10;
+    -fx-font-size: 14px;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+.boton-rojo {
+    -fx-background-color: #ff4d4d;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #cc0000;
+    -fx-border-width: 2;
+}
+
+.boton-rojo:hover {
+    -fx-background-color: #e60000;
+    -fx-border-color: #990000;
+}
+
+
 
 .table-view .table-cell {
     -fx-font-size: 18px;
