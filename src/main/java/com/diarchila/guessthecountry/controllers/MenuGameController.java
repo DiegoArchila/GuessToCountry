@@ -70,9 +70,21 @@ public class MenuGameController {
 
     @FXML
     private void handleBtnInstrucciones(ActionEvent event) {
-        System.out.println("Mostrar instrucciones...");
-        // Aquí podrías mostrar un diálogo con instrucciones
+        System.out.println("Botón instrucciones presionado");
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/Instructions.fxml"));
+            Parent root = loader.load();
+
+            Stage stage = new Stage();
+            stage.setTitle("Instrucciones");
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
+
+
 
     @FXML
     private void handleBtnSalir(ActionEvent event) {

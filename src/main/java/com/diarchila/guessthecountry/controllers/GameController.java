@@ -213,4 +213,24 @@ public class GameController {
 
         stage.setScene(scene);
     }
+    @FXML
+    private void handleBtnInstrucciones(ActionEvent event) {
+        try {
+            // Cargar el archivo FXML de instrucciones
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/Instructions.fxml"));
+            Parent root = loader.load();
+
+            // Crear una nueva ventana para mostrar las instrucciones
+            Stage stage = new Stage();
+            stage.setTitle("Instrucciones");
+            stage.setScene(new Scene(root));
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+
 }
