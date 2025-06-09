@@ -24,9 +24,12 @@
     <Label text="Welcome to" styleClass="welcome-text" />
     <Label text="Guess the Country game!" styleClass="title-game" />
 
-    <Button text="Empezar" styleClass="blue-btn" onAction="#handleStartBtn" />
-    <Button text="Puntaje" styleClass="blue-btn" onAction="#handleScoreBtn" />
-    <Button text="Instrucciones" styleClass="blue-btn" onAction="#handleInstructionsBtn" />
-    <Button text="Salir" styleClass="reb-btn" onAction="#handleExitBtn" />
+    <!-- Agrupar los botones en un VBox centrado -->
+    <VBox alignment="CENTER" spacing="10">
+        <Button text="Empezar" styleClass="blue-btn" onAction="#handleStartBtn" />
+        <Button text="Puntaje" styleClass="blue-btn" onAction="#handleScoreBtn" />
+        <Button text="Instrucciones" styleClass="blue-btn" onAction="#handleInstructionsBtn" />
+        <Button text="Salir" styleClass="reb-btn" onAction="#handleExitBtn" />
+    </VBox>
 
 </VBox>
