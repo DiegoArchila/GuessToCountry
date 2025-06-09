@@ -58,7 +58,7 @@
     -fx-background-color: #e1f5fe;
 }
 
-/* Botón rojo (Salir) */
+
 .reb-btn {
     -fx-background-color: #d32f2f;
     -fx-text-fill: white;
@@ -110,6 +110,41 @@
     -fx-alignment: center;
     -fx-font-size: 14px;
 }
+.title-game {
+    -fx-font-size: 28px;
+    -fx-text-fill: #FBBF24;
+    -fx-font-weight: bold;
+}
+
+.instructions-textarea {
+    -fx-control-inner-background: #334155;
+    -fx-text-fill: #F8FAFC;
+    -fx-font-size: 16px;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-padding: 10px;
+}
+
+.btn-regress {
+    -fx-background-color: #DC2626;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20 10 20;
+    -fx-background-radius: 5;
+}
+
+.btn-regress:hover {
+    -fx-background-color: #B91C1C;
+    cursor: pointer;
+}
+
+
+.title-game {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
 .blue-btn {
     -fx-background-color: #2196F3;
     -fx-text-fill: white;
@@ -118,7 +153,7 @@
     -fx-border-radius: 5;
     -fx-background-radius: 5;
 }
-.reb-btn {
+.btn-backer {
     -fx-background-color: #ff4d4d;
     -fx-text-fill: white;
     -fx-font-size: 16px;
@@ -130,9 +165,11 @@
     -fx-border-width: 2;
 }
 
-.reb-btn:hover {
+
+.btn-backer:hover {
     -fx-background-color: #e60000;
     -fx-border-color: #990000;
+    -fx-cursor: hand;
 }
 
 
@@ -151,6 +188,13 @@
 .table-view .table-row {
     -fx-background-color: transparent;
 }
+.title-instruction {
+    -fx-font-size: 36px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-padding: 10;
+}
+
 
 .blue-btn, .reb-btn {
     -fx-min-width: 200px;

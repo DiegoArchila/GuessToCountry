@@ -1,3 +1,15 @@
 {
-  "instrucciones": "Bienvenido al juego 'Guess the Country'.\n\n- **Reglas del juego:**\n  - Mira las pistas que aparecerán en la pantalla. Estas pueden incluir banderas.\n  - Intenta adivinar el país escogiendo la respuesta que sale en los botones.\n  - Tienes un máximo de **3 intentos** por ronda.\n  - Cada pista adicional reducirá tu puntaje, así que piensa antes de pedir más pistas.\n  - Compite con tus amigos para lograr el puntaje más alto.\n\n- **Puntos especiales:**\n  - Ganas más puntos si adivinas el país con menos pistas.\n  - Si fallas, podrás intentarlo de nuevo en la próxima ronda.\n\n- **Consejos:**\n  - Observa los detalles de las banderas. Algunas pistas son más sutiles de lo que parecen.\n  - Usa tus conocimientos sobre geografía, cultura y tradiciones.\n  - Si estás atascado, piensa en países cercanos o con características similares.\n\n- **Objetivo final:**\n  - Aprender algo nuevo, disfrutar el desafío y ¡divertirte mucho!\n\nPresiona el botón 'Volver' para regresar al menú principal. ¡Buena suerte!"
+  "content": [
+    "Cómo Jugar:",
+    "1. En la pantalla principal aparecerán 10 banderas de diferentes países.",
+    "2. Los jugadores deben adivinar el nombre correcto del país correspondiente a cada bandera.",
+    "3. Para hacer una selección, elige el nombre que creas correcto para cada bandera.",
+    "4. Si no estás seguro, puedes solicitar una pista adicional haciendo clic en el botón de pista.",
+    "5. Cada ronda tiene un tiempo límite de 30 segundos para adivinar los 10 países.",
+    "6. Cada respuesta correcta suma 100 puntos a tu puntuación total.",
+    "7. Cada respuesta incorrecta resta 50 puntos de tu puntuación.",
+    "8. Si se agota el tiempo antes de responder todas las preguntas, la ronda termina automáticamente.",
+    "9. Al final de la ronda, podrás ver tu puntuación y comparar con otras partidas.",
+    "10. ¡Usa tus conocimientos y diviértete adivinando los países!"
+  ]
 }
