@@ -82,11 +82,10 @@ public class GameController {
         if (currentCountryQuestion != null) {
             if (selectedCountry.equals(currentCountryQuestion.getName())) {
                 score += SCORE_CORRECT_ANSWER;
-                System.out.println("Respuesta correcta! Puntuación: " + score);
+                logger.log(Level.INFO, "Respuesta correcta! Puntuación: {0}", score);
             } else {
                 score -= SCORE_WRONG_ANSWER;
-                System.out.println(
-                        "Respuesta incorrecta. La respuesta correcta era: " + currentCountryQuestion.getName());
+                logger.log(Level.WARNING, "Respuesta incorrecta. La respuesta correcta era: {0}", currentCountryQuestion.getName());
             }
         }
 
@@ -99,7 +98,8 @@ public class GameController {
             btnOption2.setDisable(true);
             btnOption3.setDisable(true);
             btnOption4.setDisable(true);
-            System.out.println("Juego terminado. Tu puntuación final es: " + score);
+
+            logger.log(Level.INFO, "Juego terminado. Puntuación final: {0}", score);
 
             questionTimer.stop(); // Detener el temporizador
             questionTimer = null; // Limpiar el temporizador
@@ -109,10 +109,7 @@ public class GameController {
             scoreData.setDate(new java.util.Date());
 
             ScoreServices.addScore(scoreData); // Guardamos la puntuación final
-
-            return;
         }
-
     }
 
     private void nextQuestion() {

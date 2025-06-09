@@ -48,7 +48,7 @@ public class GameMenuController {
     }
 
     @FXML
-    private void handleInstructionsBtn(ActionEvent event) {
+    private void handleInstructionsBtn() {
         System.out.println("Botón instrucciones presionado");
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/Instructions.fxml"));
