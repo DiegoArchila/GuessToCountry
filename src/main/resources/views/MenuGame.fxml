@@ -11,33 +11,22 @@
     stylesheets="@../styles/guessTheCountry.css"
     xmlns:fx="http://javafx.com/fxml/1"
     xmlns="http://javafx.com/javafx/23.0.1"
-    fx:controller="com.diarchila.guessthecountry.controllers.MenuGameController">
+    fx:controller="com.diarchila.guessthecountry.controllers.GameMenuController">
 
     <padding>
         <Insets top="20.0" right="20.0" bottom="20.0" left="20.0" />
     </padding>
 
-    <ImageView fx:id="iconoJuego" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true"
-        preserveRatio="true">
-        <image>
-            <Image url="@../images/imageGame.png" />
-        </image>
+    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+        <Image url="@../images/imageGame.png"/>
     </ImageView>
 
-    <Label fx:id="lblWelcome" text="Welcome to" styleClass="welcome-text" />
-    <Label fx:id="lblTitlegame" text="Guess the Country game!" styleClass="title-game" />
+    <Label text="Welcome to" styleClass="welcome-text" />
+    <Label text="Guess the Country game!" styleClass="title-game" />
 
-
-    <Button fx:id="btnIniciar" text="Empezar" styleClass="boton-azul"
-        onAction="#handleBtnIniciar" />
-
-    <Button fx:id="btnMarcador" text="Puntaje" styleClass="boton-azul"
-        onAction="#handleBtnMarcador" />
-
-    <Button fx:id="btnInstrucciones" text="Instrucciones" styleClass="boton-azul"
-        onAction="#handleBtnInstrucciones" />
-
-    <Button fx:id="btnSalir" text="Salir" styleClass="boton-rojo"
-        onAction="#handleBtnSalir" />
+    <Button text="Empezar" styleClass="blue-btn" onAction="#handleStartBtn" />
+    <Button text="Puntaje" styleClass="blue-btn" onAction="#handleScoreBtn" />
+    <Button text="Instrucciones" styleClass="blue-btn" onAction="#handleInstructionsBtn" />
+    <Button text="Salir" styleClass="reb-btn" onAction="#handleExitBtn" />
 
 </VBox>

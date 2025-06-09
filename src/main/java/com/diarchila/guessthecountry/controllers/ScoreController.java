@@ -19,9 +19,13 @@ import javafx.scene.control.Button;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.logging.Logger;
+
 import javafx.scene.control.TableCell;
 
 public class ScoreController {
+
+    private static final Logger logger = Logger.getLogger(ScoreController.class.getName());
 
     @FXML
     private TableView<Score> scoreTable;
@@ -42,16 +46,14 @@ public class ScoreController {
         scoreColumn.setCellValueFactory(new PropertyValueFactory<>("score"));
 
         // Formatear fecha/hora
-        dateColumn.setCellFactory(column -> {
-            return new TableCell<Score, Date>() {
-                private final SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm");
+        dateColumn.setCellFactory(column -> new TableCell<>() {
+            private final SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy HH:mm");
 
-                @Override
-                protected void updateItem(Date item, boolean empty) {
-                    super.updateItem(item, empty);
-                    setText(empty || item == null ? null : format.format(item));
-                }
-            };
+            @Override
+            protected void updateItem(Date item, boolean empty) {
+                super.updateItem(item, empty);
+                setText(empty || item == null ? null : format.format(item));
+            }
         });
 
         // Cargar datos
@@ -62,16 +64,9 @@ public class ScoreController {
             try {
                 backToMenuGame(event);
             } catch (IOException e1) {
-                e1.printStackTrace();
+                logger.severe("Error al volver al menú del juego: " + e1.getMessage());
             }
         });
-    }
-
-    @FXML
-    private void handleExit() {
-        // Cierra la ventana actual
-        Stage stage = (Stage) scoreTable.getScene().getWindow();
-        stage.close();
     }
 
     private void backToMenuGame(ActionEvent event) throws IOException {

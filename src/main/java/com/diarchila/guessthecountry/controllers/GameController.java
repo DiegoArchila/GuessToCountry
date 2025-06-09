@@ -23,8 +23,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class GameController {
+
+    private static final Logger logger = Logger.getLogger(GameController.class.getName());
 
     List<Country> countries = CountryServices.COUNTRIES;
 
@@ -36,25 +40,22 @@ public class GameController {
 
     Score  scoreData = new Score();
 
-    ScoreServices scoreService = new ScoreServices();
-
     int score = 0;
-    int MAXQUESTIONS = 10;
+    int MAX_QUESTIONS = 10;
     int SCORE_CORRECT_ANSWER = 100;
     int SCORE_WRONG_ANSWER = 50;
 
     private Timeline questionTimer;
-    private final int TIME_LIMIT = 30; // segundos
     private int timeLeft;
 
     @FXML
-    private Label lblQuestion, lblmaxQuestions, lblScore, lblTimer;
+    private Label lblQuestion, lblMaxQuestions, lblScore, lblTimer;
 
     @FXML
     private ImageView imagenBandera;
 
     @FXML
-    private Button btnOpcion1, btnOpcion2, btnOpcion3, btnOpcion4;
+    private Button btnOption1, btnOption2, btnOption3, btnOption4;
 
     @FXML
     private Button btnBackToMenuGame;
@@ -66,7 +67,7 @@ public class GameController {
             try {
                 backToMenuGame(event);
             } catch (IOException e1) {
-                e1.printStackTrace();
+                logger.log(Level.SEVERE, "Error al volver al menú del juego", e1);
             }
         });
 
@@ -89,15 +90,15 @@ public class GameController {
             }
         }
 
-        if (countryQuestions.size() < MAXQUESTIONS) {
+        if (countryQuestions.size() < MAX_QUESTIONS) {
             nextQuestion();
         } else {
             lblQuestion.setText("¡Juego terminado!");
             lblScore.setText("Puntuación final: " + score);
-            btnOpcion1.setDisable(true);
-            btnOpcion2.setDisable(true);
-            btnOpcion3.setDisable(true);
-            btnOpcion4.setDisable(true);
+            btnOption1.setDisable(true);
+            btnOption2.setDisable(true);
+            btnOption3.setDisable(true);
+            btnOption4.setDisable(true);
             System.out.println("Juego terminado. Tu puntuación final es: " + score);
 
             questionTimer.stop(); // Detener el temporizador
@@ -117,7 +118,7 @@ public class GameController {
     private void nextQuestion() {
 
         lblScore.setText("Puntuación: " + score);
-        lblmaxQuestions.setText("Preguntas: " + (countryQuestions.size()+1) + "/" + MAXQUESTIONS);
+        lblMaxQuestions.setText("Preguntas: " + (countryQuestions.size()+1) + "/" + MAX_QUESTIONS);
 
         if (countryQuestions != null) {
             do {
@@ -126,6 +127,7 @@ public class GameController {
 
         }
 
+        assert countryQuestions != null;
         countryQuestions.add(currentCountryQuestion);
 
         lblQuestion.setText("¿A qué país pertenece esta bandera?");
@@ -149,19 +151,19 @@ public class GameController {
         java.util.Collections.shuffle(options);
 
         // Asignar texto a los botones
-        btnOpcion1.setText(options.get(0));
-        btnOpcion2.setText(options.get(1));
-        btnOpcion3.setText(options.get(2));
-        btnOpcion4.setText(options.get(3));
+        btnOption1.setText(options.get(0));
+        btnOption2.setText(options.get(1));
+        btnOption3.setText(options.get(2));
+        btnOption4.setText(options.get(3));
 
         // Se asigna los eventos a los botones de respuesta
-        btnOpcion1.setOnAction(this::checkResponse);
-        btnOpcion2.setOnAction(this::checkResponse);
-        btnOpcion3.setOnAction(this::checkResponse);
-        btnOpcion4.setOnAction(this::checkResponse);
+        btnOption1.setOnAction(this::checkResponse);
+        btnOption2.setOnAction(this::checkResponse);
+        btnOption3.setOnAction(this::checkResponse);
+        btnOption4.setOnAction(this::checkResponse);
 
         // Mostramos el pais actual y la puntuación
-        System.out.println("Respuesta: " + currentCountryQuestion.getName());
+        logger.log(Level.INFO, "Respuesta: {0}", currentCountryQuestion.getName());
 
         startTimer();
 
@@ -169,7 +171,7 @@ public class GameController {
             try {
                 backToMenuGame(event);
             } catch (IOException e1) {
-                e1.printStackTrace();
+                logger.log(Level.SEVERE, "Error al volver al menú del juego", e1);
             }
         });
     }
@@ -180,6 +182,8 @@ public class GameController {
             questionTimer.stop();
         }
 
+        // segundos
+        int TIME_LIMIT = 30;
         timeLeft = TIME_LIMIT;
         lblTimer.setText("Tiempo: " + timeLeft + "s");
 
@@ -213,24 +217,4 @@ public class GameController {
 
         stage.setScene(scene);
     }
-    @FXML
-    private void handleBtnInstrucciones(ActionEvent event) {
-        try {
-            // Cargar el archivo FXML de instrucciones
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/Instructions.fxml"));
-            Parent root = loader.load();
-
-            // Crear una nueva ventana para mostrar las instrucciones
-            Stage stage = new Stage();
-            stage.setTitle("Instrucciones");
-            stage.setScene(new Scene(root));
-            stage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-
-
-
 }

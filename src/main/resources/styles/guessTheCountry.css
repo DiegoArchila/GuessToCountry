@@ -18,7 +18,7 @@
 }
 
 /* Botón principal */
-.boton-azul {
+.blue-btn {
     -fx-background-color: #7593e6;
     -fx-text-fill: white;
     -fx-font-size: 14px;
@@ -32,14 +32,14 @@
 }
 
 /* Pregunta superior */
-.label-pregunta {
+.question-label {
     -fx-font-size: 18px;
     -fx-font-weight: bold;
     -fx-text-fill: #37474f;
 }
 
 /* Botones de opciones (estilo similar al botón azul, pero más neutro) */
-.opcion-boton {
+.btn-option {
     -fx-background-color: #ffffff;
     -fx-border-color: #0288d1;
     -fx-text-fill: #0288d1;
@@ -50,12 +50,12 @@
     -fx-cursor: hand;
 }
 
-.opcion-boton:hover {
+.btn-option:hover {
     -fx-background-color: #e1f5fe;
 }
 
 /* Botón rojo (Salir) */
-.boton-rojo {
+.reb-btn {
     -fx-background-color: #d32f2f;
     -fx-text-fill: white;
     -fx-font-size: 14px;
@@ -64,7 +64,7 @@
     -fx-cursor: hand;
 }
 
-.boton-rojo:hover {
+.reb-btn:hover {
     -fx-background-color: #ef5350;
 }
 
@@ -79,7 +79,7 @@
     -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.25), 5, 0, 0, 2);
 }
 
-.hbox {
+.h-box {
     -fx-alignment: center-right;
     -fx-padding: 10px 0 0 0;
 }
@@ -106,7 +106,7 @@
     -fx-alignment: center;
     -fx-font-size: 14px;
 }
-.boton-azul {
+.blue-btn {
     -fx-background-color: #2196F3;
     -fx-text-fill: white;
     -fx-padding: 10;
@@ -114,7 +114,7 @@
     -fx-border-radius: 5;
     -fx-background-radius: 5;
 }
-.boton-rojo {
+.reb-btn {
     -fx-background-color: #ff4d4d;
     -fx-text-fill: white;
     -fx-font-size: 16px;
@@ -126,7 +126,7 @@
     -fx-border-width: 2;
 }
 
-.boton-rojo:hover {
+.reb-btn:hover {
     -fx-background-color: #e60000;
     -fx-border-color: #990000;
 }

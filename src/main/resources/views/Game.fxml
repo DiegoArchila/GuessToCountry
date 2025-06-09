@@ -17,24 +17,24 @@
     </padding>
 
     <HBox spacing="40" alignment="CENTER">
-        <Label fx:id="lblmaxQuestions" text="Pregunta 1/10" styleClass="info-label"/>
+        <Label fx:id="lblMaxQuestions" text="Pregunta 1/10" styleClass="info-label"/>
         <Label fx:id="lblScore" text="Puntuación: 0" styleClass="info-label"/>
         <Label fx:id="lblTimer" text="Tiempo: 30s" styleClass="info-label"/>
     </HBox>
 
-    <Label fx:id="lblQuestion" text="¿A qué país pertenece esta bandera?" styleClass="label-pregunta"/>
+    <Label fx:id="lblQuestion" text="¿A qué país pertenece esta bandera?" styleClass="question-label"/>
 
     <ImageView fx:id="imagenBandera" fitHeight="200" fitWidth="300" preserveRatio="true"/>
 
     <VBox spacing="10">
-        <Button fx:id="btnOpcion1" text="Opción 1" styleClass="opcion-boton"/>
-        <Button fx:id="btnOpcion2" text="Opción 2" styleClass="opcion-boton"/>
-        <Button fx:id="btnOpcion3" text="Opción 3" styleClass="opcion-boton"/>
-        <Button fx:id="btnOpcion4" text="Opción 4" styleClass="opcion-boton"/>
+        <Button fx:id="btnOption1" text="Opción 1" styleClass="btn-option"/>
+        <Button fx:id="btnOption2" text="Opción 2" styleClass="btn-option"/>
+        <Button fx:id="btnOption3" text="Opción 3" styleClass="btn-option"/>
+        <Button fx:id="btnOption4" text="Opción 4" styleClass="btn-option"/>
     </VBox>
 
     <HBox spacing="10" alignment="CENTER">
-        <Button fx:id="btnBackToMenuGame" text="Salir" styleClass="boton-rojo"/>
+        <Button fx:id="btnBackToMenuGame" text="Salir" styleClass="reb-btn"/>
     </HBox>
 
 </VBox>
