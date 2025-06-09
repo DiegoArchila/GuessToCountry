@@ -1,8 +1,8 @@
 /* Estilo para el contenedor general VBox */
-/* .root {
-    -fx-background-color: linear-gradient(to bottom, #e0f7fa, #ffffff);
+.root {
+    -fx-background-color: white;
     -fx-font-family: "Arial", sans-serif;
-} */
+}
 
 /* Título principal */
 .title-game {

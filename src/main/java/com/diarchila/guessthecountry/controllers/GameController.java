@@ -207,7 +207,7 @@ public class GameController {
     private void backToMenuGame(ActionEvent event) throws IOException {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/MenuGame.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/GameMenu.fxml"));
 
         Parent root = loader.load();
         Scene scene = new Scene(root, 600, 600);

@@ -21,8 +21,8 @@
         <Image url="@../images/imageGame.png"/>
     </ImageView>
 
-    <Label text="Welcome to" styleClass="welcome-text" />
-    <Label text="Guess the Country game!" styleClass="title-game" />
+    <Label text="Bienvenido a" styleClass="welcome-text" />
+    <Label text="Guess the Country!" styleClass="title-game" />
 
     <!-- Agrupar los botones en un VBox centrado -->
     <VBox alignment="CENTER" spacing="10">

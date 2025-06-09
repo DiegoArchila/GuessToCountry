@@ -11,7 +11,7 @@ public class GuessTheCountry extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/views/MenuGame.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/views/GameMenu.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 600, 600);
         stage.setTitle("Guess The Country Game!");
         stage.setScene(scene);
