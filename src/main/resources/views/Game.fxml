@@ -26,7 +26,7 @@
 
     <ImageView fx:id="imagenBandera" fitHeight="200" fitWidth="300" preserveRatio="true"/>
 
-    <VBox spacing="10">
+    <VBox alignment="CENTER" spacing="10">
         <Button fx:id="btnOption1" text="Opción 1" styleClass="btn-option"/>
         <Button fx:id="btnOption2" text="Opción 2" styleClass="btn-option"/>
         <Button fx:id="btnOption3" text="Opción 3" styleClass="btn-option"/>

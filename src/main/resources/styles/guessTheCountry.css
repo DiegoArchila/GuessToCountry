@@ -48,6 +48,10 @@
     -fx-background-radius: 10;
     -fx-border-radius: 10;
     -fx-cursor: hand;
+
+    -fx-min-width: 300px;
+    -fx-max-width: 300px;
+    -fx-pref-width: 300px;
 }
 
 .btn-option:hover {
@@ -146,4 +150,10 @@
 
 .table-view .table-row {
     -fx-background-color: transparent;
+}
+
+.blue-btn, .reb-btn {
+    -fx-min-width: 200px;
+    -fx-max-width: 200px;
+    -fx-pref-width: 200px;
 }
