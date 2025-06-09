@@ -8,6 +8,7 @@ module com.diarchila.guessthecountry {
     requires com.fasterxml.jackson.databind;
     requires com.fasterxml.jackson.core;
     requires com.fasterxml.jackson.annotation;
+    requires java.logging;
 
     opens com.diarchila.guessthecountry to javafx.fxml;
     opens com.diarchila.guessthecountry.controllers to javafx.fxml;

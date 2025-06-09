@@ -11,30 +11,24 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.logging.Logger;
 
-public class InstruccionesController {
+public class InstructionsController {
+
+    private static final Logger logger = Logger.getLogger(InstructionsController.class.getName());
 
     @FXML
-    private Button btnVolver;
+    private Button backButton;
 
     @FXML
     private TextArea txtInstrucciones;
 
-    // Archivo JSON con las instrucciones
-    private final String INSTRUCTIONS_FILE = "/data/instructions.json";
-
     @FXML
     public void initialize() {
-        cargarInstrucciones();
-    }
 
-    @FXML
-    public void volverAtras(ActionEvent event) {
-        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        stage.close();
-    }
+        backButton.setOnAction(this::goBack);
 
-    private void cargarInstrucciones() {
+        String INSTRUCTIONS_FILE = "/data/Instructions.json";
         try (InputStream is = getClass().getResourceAsStream(INSTRUCTIONS_FILE)) {
             if (is == null) {
                 txtInstrucciones.setText("No se pudo cargar las instrucciones. El archivo no fue encontrado.");
@@ -45,8 +39,14 @@ public class InstruccionesController {
             String instrucciones = root.path("instrucciones").asText();
             txtInstrucciones.setText(instrucciones);
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.severe("Error al cargar las instrucciones: " + e.getMessage());
             txtInstrucciones.setText("Hubo un error al cargar las instrucciones.");
         }
+    }
+
+    @FXML
+    public void goBack(ActionEvent event) {
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.close();
     }
 }

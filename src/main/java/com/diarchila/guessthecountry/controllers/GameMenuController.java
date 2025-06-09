@@ -2,9 +2,6 @@ package com.diarchila.guessthecountry.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import javafx.scene.Node;
 import javafx.fxml.FXMLLoader;
@@ -12,38 +9,20 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 
 import java.io.IOException;
+import java.util.logging.Logger;
 
-public class MenuGameController {
+public class GameMenuController {
 
-    @FXML
-    private ImageView iconoJuego;
-
-    @FXML
-    private Label lblWelcome;
-
-    @FXML
-    private Label lblTitlegame;
-
-    @FXML
-    private Button btnIniciar;
-
-    @FXML
-    private Button btnMarcador;
-
-    @FXML
-    private Button btnInstrucciones;
-
-    @FXML
-    private Button btnSalir;
+    private static final Logger logger = Logger.getLogger(GameMenuController.class.getName());
 
     @FXML
     private void initialize() {
         // Inicializaciones si son necesarias
-        System.out.println("Pantalla de menú inicializada");
+        logger.info("GameMenuController initialized");
     }
 
     @FXML
-    private void handleBtnIniciar(ActionEvent event) throws IOException {
+    private void handleStartBtn(ActionEvent event) throws IOException {
 
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
@@ -57,7 +36,7 @@ public class MenuGameController {
     }
 
     @FXML
-    private void handleBtnMarcador(ActionEvent event) throws IOException {
+    private void handleScoreBtn(ActionEvent event) throws IOException {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
 
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/Scores.fxml"));
@@ -69,7 +48,7 @@ public class MenuGameController {
     }
 
     @FXML
-    private void handleBtnInstrucciones(ActionEvent event) {
+    private void handleInstructionsBtn() {
         System.out.println("Botón instrucciones presionado");
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("/views/Instructions.fxml"));
@@ -80,14 +59,12 @@ public class MenuGameController {
             stage.setScene(new Scene(root));
             stage.show();
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.severe("Error al cargar la ventana de instrucciones: " + e.getMessage());
         }
     }
 
-
-
     @FXML
-    private void handleBtnSalir(ActionEvent event) {
+    private void handleExitBtn(ActionEvent event) {
         Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
         stage.close();
     }

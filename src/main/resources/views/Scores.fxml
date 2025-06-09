@@ -21,9 +21,9 @@
     <bottom>
         <HBox alignment="CENTER" spacing="10" stylesheets="@../styles/guessTheCountry.css">
             <BorderPane.margin>
-                <Insets bottom="12" left="0" right="0" top="12" />
+                <Insets bottom="12" top="12" />
             </BorderPane.margin>
-            <Button fx:id="btnBackToMenuGame" styleClass="boton-rojo" text="Salir" />
+            <Button fx:id="btnBackToMenuGame" styleClass="reb-btn" text="Salir" />
         </HBox>
     </bottom>
 
