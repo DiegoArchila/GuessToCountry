@@ -30,20 +30,20 @@ public class GameController {
 
     private static final Logger logger = Logger.getLogger(GameController.class.getName());
 
-    List<Country> countries = CountryServices.COUNTRIES;
+    final List<Country> countries = CountryServices.COUNTRIES;
 
-    List<Country> countryQuestions = new ArrayList<>();
+    final List<Country> countryQuestions = new ArrayList<>();
 
     Country currentCountryQuestion = null;
 
-    Random random = new Random();
+    final Random random = new Random();
 
-    Score  scoreData = new Score();
+    final Score  scoreData = new Score();
 
     int score = 0;
-    int MAX_QUESTIONS = 10;
-    int SCORE_CORRECT_ANSWER = 100;
-    int SCORE_WRONG_ANSWER = 50;
+    final int MAX_QUESTIONS = 10;
+    final int SCORE_CORRECT_ANSWER = 100;
+    final int SCORE_WRONG_ANSWER = 50;
 
     private Timeline questionTimer;
     private int timeLeft;
@@ -115,14 +115,10 @@ public class GameController {
         lblScore.setText("Puntuación: " + score);
         lblMaxQuestions.setText("Preguntas: " + (countryQuestions.size()+1) + "/" + MAX_QUESTIONS);
 
-        if (countryQuestions != null) {
-            do {
-                currentCountryQuestion = countries.get(random.nextInt(countries.size()));
-            } while (countryQuestions.contains(currentCountryQuestion));
+        do {
+            currentCountryQuestion = countries.get(random.nextInt(countries.size()));
+        } while (countryQuestions.contains(currentCountryQuestion));
 
-        }
-
-        assert countryQuestions != null;
         countryQuestions.add(currentCountryQuestion);
 
         lblQuestion.setText("¿A qué país pertenece esta bandera?");
