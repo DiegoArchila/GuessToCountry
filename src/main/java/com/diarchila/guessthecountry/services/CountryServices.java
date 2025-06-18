@@ -7,8 +7,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 public class CountryServices {
+
+    private static final Logger logger = Logger.getLogger(CountryServices.class.getName());
 
     public static final List<Country> COUNTRIES = new ArrayList<>();
 
@@ -20,16 +23,16 @@ public class CountryServices {
         try {
             ObjectMapper countriesMapper = new ObjectMapper();
             File file = new File("src/main/resources/data/Countries.json");
-            List<Country> countries = countriesMapper.readValue(file, new TypeReference<List<Country>>() {});
+            List<Country> countries = countriesMapper.readValue(file, new TypeReference<>() {});
             COUNTRIES.addAll(countries);
         } catch (Exception e) {
-            e.printStackTrace();
-            System.err.println("Error loading countries: " + e.getMessage());
+            logger.severe("Error loading countries: " + e.getMessage());
         }
 
-        System.err.println("Countries loaded: " + COUNTRIES.size() + " countries available.");
         if (COUNTRIES.isEmpty()) {
-            System.err.println("No countries loaded. Check the JSON file.");
+            logger.warning("No countries loaded. Check the JSON file.");
+        } else {
+            logger.info("Countries loaded: " + COUNTRIES.size() + " countries available.");
         }
     }
 

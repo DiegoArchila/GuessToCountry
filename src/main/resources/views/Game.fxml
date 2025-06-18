@@ -24,7 +24,7 @@
 
     <Label fx:id="lblQuestion" text="¿A qué país pertenece esta bandera?" styleClass="question-label"/>
 
-    <ImageView fx:id="imagenBandera" fitHeight="200" fitWidth="300" preserveRatio="true"/>
+    <ImageView fx:id="flagImage" fitHeight="200" fitWidth="300" preserveRatio="true"/>
 
     <VBox alignment="CENTER" spacing="10">
         <Button fx:id="btnOption1" text="Opción 1" styleClass="btn-option"/>

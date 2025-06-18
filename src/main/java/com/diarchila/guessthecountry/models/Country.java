@@ -23,14 +23,13 @@ public class Country {
             String region,
             String flagUrlPNG,
             List<String> languages,
-            List<String> currency) { 
-
+            List<String> currency) {
         this.name = name;
         this.capital = capital;
         this.region = region;
         this.flagUrlPNG = flagUrlPNG;
-        this.languages = (languages!=null) ? new ArrayList<>(languages) : new ArrayList<String>();
-        this.currency = (currency!=null) ? new ArrayList<>(currency) : new ArrayList<String>();
+        this.languages = (languages!=null) ? new ArrayList<>(languages) : new ArrayList<>();
+        this.currency = (currency!=null) ? new ArrayList<>(currency) : new ArrayList<>();
     }
 
     /*

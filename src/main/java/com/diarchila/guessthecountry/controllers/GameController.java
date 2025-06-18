@@ -52,7 +52,7 @@ public class GameController {
     private Label lblQuestion, lblMaxQuestions, lblScore, lblTimer;
 
     @FXML
-    private ImageView imagenBandera;
+    private ImageView flagImage;
 
     @FXML
     private Button btnOption1, btnOption2, btnOption3, btnOption4;
@@ -72,7 +72,6 @@ public class GameController {
         });
 
         nextQuestion(); // Cargamos la primera pregunta al iniciar
-
     }
 
     private void checkResponse(ActionEvent event) {
@@ -113,7 +112,6 @@ public class GameController {
     }
 
     private void nextQuestion() {
-
         lblScore.setText("Puntuación: " + score);
         lblMaxQuestions.setText("Preguntas: " + (countryQuestions.size()+1) + "/" + MAX_QUESTIONS);
 
@@ -128,9 +126,9 @@ public class GameController {
         countryQuestions.add(currentCountryQuestion);
 
         lblQuestion.setText("¿A qué país pertenece esta bandera?");
-        Image bandera = new Image(currentCountryQuestion.getFlagUrlPNG());
+        Image flag = new Image(currentCountryQuestion.getFlagUrlPNG());
 
-        imagenBandera.setImage(bandera);
+        flagImage.setImage(flag);
 
         // Limpiar botones antes de asignar nuevas opciones de respuesta
         List<String> options = new ArrayList<>();
